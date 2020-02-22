@@ -16,9 +16,9 @@ body{
 }
 
 .dropbtn {
-    background-color: blueviolet;
+    background-color: white;
     padding: 16px;
-    color: coral;
+    color: black;
     border: none;
 }
 
@@ -30,21 +30,21 @@ body{
 
 .dropdown-content {
     display: none;
-    color: floralwhite;
+    color:black;
     padding: 50px 50px;
-    background-color: gold;
+    background-color:white;
     min-width: 250px;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: hotpink;
+    color:white;
     padding: 50px 50px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: lavender;}
+.dropdown-content a:hover {background-color:white;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: lightgray;}
 
