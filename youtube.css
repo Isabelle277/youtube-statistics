@@ -28,6 +28,7 @@ body{
 }
 
 .dropdown-content {
+    display: none;
     color: floralwhite;
     padding: 50px 50px;
     background-color: gold;
