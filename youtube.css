@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgb(167, 164, 164);
 }
 
 #logo {
@@ -7,7 +7,7 @@ body{
 }
 
 * {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", arial, sans-serif;
 }
 
 .page-header {
@@ -16,37 +16,44 @@ body{
 
 .dropbtn {
     background-color: white;
-    padding: 16px;
+    padding: 5px;
     color: black;
-    margin: none;
+    margin: 0px;
 }
 
 .dropdown {
-    position: relative;
-    padding: 10px;
-    display: inline-block;
+    position: absolute;
+    padding: 5px;
 }
 
 .dropdown-content {
     display: none;
     color:black;
-    padding: 50px 50px;
+    padding: 5px 5px;
     background-color:white;
     min-width: 250px;
     z-index: 1;
+    left: 0; top: 100%;
+    width: 100%;
 }
 
 .dropdown-content a {
     color:black;
-    padding: 50px 50px;
+    padding: 5px;
     text-decoration: none;
-    display: block;
+    border-bottom: 1px black;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content a:hover {background-color: grey;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: lightgray;}
 
-.li{
+li{
     display: inline-block;
+    background-color: gray;
+    padding: 15px;
+    margin: 50px;
+    width: 50%;
 }
