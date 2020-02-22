@@ -3,7 +3,7 @@ body{
 }
 
 #logo {
-    width: 250px;
+    width: 150px;
 }
 
 * {
@@ -11,20 +11,20 @@ body{
 }
 
 .header {
-    padding: 30px;
+    padding: 20px;
     color: black;
 }
 
 .dropbtn {
     background-color: blueviolet;
-    padding: 16px;
+    padding: 10px;
     color: coral;
-    border: none;
+    padding-right: 20px;
 }
 
 .dropdown {
     position: relative;
-    padding: 16px;
+    padding: 10px;
     display: block;
 }
 
