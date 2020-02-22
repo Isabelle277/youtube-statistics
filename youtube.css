@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+
+#logo {
+    width: 250px;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    padding: 30px;
+    color: black;
+}
+
+.dropbtn {
+    background-color: blueviolet;
+    padding: 16px;
+    color: coral;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: block;
+}
+
+.dropdown-content {
+    color: floralwhite;
+    padding: 50px 50px;
+    background-color: gold;
+    min-width: 250px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: hotpink;
+    padding: 50px 50px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: lavender;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: lightgray;}
