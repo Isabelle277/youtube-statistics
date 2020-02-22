@@ -10,41 +10,43 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-.header {
-    padding: 20px;
-    color: black;
+.page-header {
+    display: flex;
 }
 
 .dropbtn {
-    background-color: blueviolet;
-    padding: 10px;
-    color: coral;
-    padding-right: 20px;
+    background-color: white;
+    padding: 16px;
+    color: black;
+    margin: none;
 }
 
 .dropdown {
     position: relative;
     padding: 10px;
-    display: block;
+    display: inline-block;
 }
 
 .dropdown-content {
     display: none;
-    color: floralwhite;
+    color:black;
     padding: 50px 50px;
-    background-color: gold;
+    background-color:white;
     min-width: 250px;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: hotpink;
+    color:black;
     padding: 50px 50px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {background-color: lavender;}
+.dropdown-content a:hover {background-color: grey;}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: lightgray;}
 
+.li{
+    display: inline-block;
+}
