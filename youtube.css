@@ -54,7 +54,7 @@ body{
 
 .video{
     display: inline-block;
-    background-color: rgb(255,255,255);
+    background-color: rgb(170, 170, 170);
     padding: 15px;
     margin: 50px;
     width: 50%;
