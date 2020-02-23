@@ -14,5 +14,5 @@
 <tr>
       <td>Music</td>
        <td>13,754</td>
-       
+</tr>
     
