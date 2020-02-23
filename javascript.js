@@ -54,6 +54,8 @@ function populateListItem(video, num) {
  buttonviewed.addEventListener("click", () => {
     const url = "http://www.girlsintech.co.uk/api/top10?category=views";
     populateData (url);
+
+    populateLabel ("Most Viewed");
  });
 
  const buttondisliked = document.querySelector("#mostDisliked");
@@ -62,6 +64,8 @@ function populateListItem(video, num) {
  buttondisliked.addEventListener("click", () => {
     const url = "http://www.girlsintech.co.uk/api/top10?category=dislikes";
     populateData (url);
+
+    populateLabel ("Most Disliked");
  });
 
  const buttonliked = document.querySelector("#mostLiked");
@@ -70,6 +74,8 @@ function populateListItem(video, num) {
   buttonliked.addEventListener("click", () => {
      const url = "http://www.girlsintech.co.uk/api/top10?category=likes";
      populateData (url);
+
+     populateLabel("Most Liked");
   });
 
   const buttoncomment = document.querySelector("#mostCommented");
@@ -78,7 +84,15 @@ function populateListItem(video, num) {
    buttoncomment.addEventListener("click", () => {
       const url = "http://www.girlsintech.co.uk/api/top10?category=comments";
       populateData (url);
+
+      populateLabel("Most Commented")
    });
   
-   populateData (url);
+  
    const url = "http://www.girlsintech.co.uk/api/top10?category=views";
+   populateData (url);
+
+   function populateLabel(title) {
+    const label = document.querySelector("#label");
+    label.innerHTML = title;
+   }

@@ -14,11 +14,13 @@ body{
     display: flex;
 }
 
-.dropbtn {
+.button {
     background-color: red;
     padding: 10px 20px;
     color: white;
     margin: 0px;
+    position: relative;
+    text-decoration: none;
 }
 
 .dropdown {
@@ -69,4 +71,10 @@ body{
     text-decoration: none;
     background-color: red;
     padding: 5px;
+}
+
+#home{
+    font-size: 30px;
+    float: right;
+    padding: 
 }
