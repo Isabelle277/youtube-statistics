@@ -70,7 +70,9 @@ body{
 #homeLink{
     text-decoration: none;
     background-color: red;
-    padding: 5px;
+    padding: 10px 10px;
+    color: white;
+    font-size: 200%;
 }
 
 
@@ -90,7 +92,21 @@ body{
     background-color: red;
 }
 
-#categories{
-    width: 50%;
-    float: right;
+table{
+    border: 2px black solid;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border-bottom: 1px solid gray;
+    border: 1px solid black
+}
+
+tr:nth-child(even) {background-color: #eeb5b5;}
+tr:nth-child(odd) {background-color: #f06363;}
+tr:hover {background-color: rgb(236, 56, 56);}
+
+th{
+    background-color: darkgray;
 }
