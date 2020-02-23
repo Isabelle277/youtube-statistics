@@ -15,9 +15,9 @@ body{
 }
 
 .dropbtn {
-    background-color: white;
-    padding: 5px;
-    color: black;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
     margin: 0px;
 }
 
@@ -46,14 +46,22 @@ body{
     display: inline-block;
 }
 
-.dropdown-content a:hover {background-color: grey;}
+.dropdown-content a:hover {background-color: lightgray;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: lightgray;}
+.dropdown:hover .dropbtn {background-color: rgb(236, 43, 43);}
 
-li{
+#video{
     display: inline-block;
     background-color: gray;
     padding: 15px;
     margin: 50px;
     width: 50%;
 }
+
+#sorted{
+    position: relative;
+    left: 550px;
+    text-decoration: black;
+    text-decoration-line: underline;
+}
+
