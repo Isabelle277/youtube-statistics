@@ -48,7 +48,7 @@ function populateListItem(video, num) {
 //     return `<li>${title}. Views: ${Intl.NumberFormat("en-GB").format(video.views)}</li>`
 // }
 
- const buttonviewed = document.querySelector("#mostViewed");
+ const buttonviewed = document.querySelector("#welwyd");
 // const text = document.querySelector(".text");
 
  buttonviewed.addEventListener("click", () => {
@@ -58,7 +58,7 @@ function populateListItem(video, num) {
     populateLabel ("Welwyd Fwyaf");
  });
 
- const buttondisliked = document.querySelector("#mostDisliked");
+ const buttondisliked = document.querySelector("#casau");
 // const text = document.querySelector(".text");
 
  buttondisliked.addEventListener("click", () => {
@@ -68,7 +68,7 @@ function populateListItem(video, num) {
     populateLabel ("Casau Fwyaf");
  });
 
- const buttonliked = document.querySelector("#mostLiked");
+ const buttonliked = document.querySelector("#hoffwyd");
  // const text = document.querySelector(".text");
  
   buttonliked.addEventListener("click", () => {
@@ -78,7 +78,7 @@ function populateListItem(video, num) {
      populateLabel("Hoffwyd Fwyaf");
   });
 
-  const buttoncomment = document.querySelector("#mostCommented");
+  const buttoncomment = document.querySelector("#sylwadau");
   // const text = document.querySelector(".text");
   
    buttoncomment.addEventListener("click", () => {
