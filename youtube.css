@@ -76,5 +76,6 @@ body{
 #home{
     font-size: 30px;
     float: right;
-    padding: 
+    padding: 25px 5px;
+    margin: 10px;
 }
