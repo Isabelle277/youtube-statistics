@@ -65,3 +65,8 @@ body{
     text-decoration-line: underline;
 }
 
+#homeLink{
+    text-decoration: none;
+    background-color: red;
+    padding: 5px;
+}
