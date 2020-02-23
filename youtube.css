@@ -73,9 +73,20 @@ body{
     padding: 5px;
 }
 
+<<<<<<< HEAD
+#options{
+    font-size: 60px;
+    position:relative;
+    color:rgb(5, 5, 5);
+=======
 #home{
     font-size: 30px;
     float: right;
+<<<<<<< HEAD
     padding: 25px 5px;
     margin: 10px;
+=======
+    padding: 
+>>>>>>> 134ed68200ee7c47ae3939f9faa8e1c31d156444
+>>>>>>> ef03728c33d45ee24f7a136cedac11cd47880e0a
 }
