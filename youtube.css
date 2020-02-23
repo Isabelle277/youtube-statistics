@@ -54,7 +54,7 @@ body{
 
 .video{
     display: inline-block;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(182, 182, 182);
     padding: 15px;
     margin: 50px;
     width: 50%;
@@ -73,15 +73,15 @@ body{
     padding: 5px;
 }
 
-<<<<<<< HEAD
+
 #options{
     font-size: 60px;
     position:relative;
     color:rgb(5, 5, 5);
-=======
+}
 #home{
     font-size: 30px;
     float: right;
-    padding: 
->>>>>>> 134ed68200ee7c47ae3939f9faa8e1c31d156444
+    padding: 25px 5px;
+    margin: 10px;
 }
