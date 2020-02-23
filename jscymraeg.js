@@ -55,7 +55,7 @@ function populateListItem(video, num) {
     const url = "http://www.girlsintech.co.uk/api/top10?category=views";
     populateData (url);
 
-    populateLabel ("Mwyaf ");
+    populateLabel ("Welwyd Fwyaf");
  });
 
  const buttondisliked = document.querySelector("#mostDisliked");
@@ -65,7 +65,7 @@ function populateListItem(video, num) {
     const url = "http://www.girlsintech.co.uk/api/top10?category=dislikes";
     populateData (url);
 
-    populateLabel ("Most Disliked");
+    populateLabel ("Casau Fwyaf");
  });
 
  const buttonliked = document.querySelector("#mostLiked");
@@ -75,7 +75,7 @@ function populateListItem(video, num) {
      const url = "http://www.girlsintech.co.uk/api/top10?category=likes";
      populateData (url);
 
-     populateLabel("Most Liked");
+     populateLabel("Hoffwyd Fwyaf");
   });
 
   const buttoncomment = document.querySelector("#mostCommented");
@@ -85,7 +85,7 @@ function populateListItem(video, num) {
       const url = "http://www.girlsintech.co.uk/api/top10?category=comments";
       populateData (url);
 
-      populateLabel("Most Commented")
+      populateLabel("Sylwadau Fwyaf")
    });
   
   
