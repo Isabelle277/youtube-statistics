@@ -14,11 +14,13 @@ body{
     display: flex;
 }
 
-.dropbtn {
+.button {
     background-color: red;
     padding: 10px 20px;
     color: white;
     margin: 0px;
+    position: relative;
+    text-decoration: none;
 }
 
 .dropdown {
@@ -50,7 +52,7 @@ body{
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: rgb(236, 43, 43);}
 
-#video{
+.video{
     display: inline-block;
     background-color: rgb(255, 255, 255);
     padding: 15px;
@@ -71,8 +73,15 @@ body{
     padding: 5px;
 }
 
+<<<<<<< HEAD
 #options{
     font-size: 60px;
     position:relative;
     color:rgb(5, 5, 5);
+=======
+#home{
+    font-size: 30px;
+    float: right;
+    padding: 
+>>>>>>> 134ed68200ee7c47ae3939f9faa8e1c31d156444
 }
